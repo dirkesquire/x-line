@@ -242,6 +242,7 @@ $.get("js/profile.json",
 
 $.get("js/architect.json",
 	function(profile, status){
+		console.log('architect.json', profile);
 		$('#get_in_touch #text').html(profile.get_in_touch);
 		loadPages(profile.pages);
 	});
@@ -254,7 +255,8 @@ $(document).ready(function(){
 	$('.collapsible').collapsible({
 	  'accordion' : true
 	});
-	var tabs = $('#tabs').tabs({ 'swipeable': false })
+	var tabs = $('#tabs').tabs({ 'swipeable': false });
+	console.log('tabs activated');
 	$('.info').perfectScrollbar();
 	onWindowResize();
 
