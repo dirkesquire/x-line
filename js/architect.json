@@ -10,7 +10,7 @@
 		"<p>Recursion - how far does the rabbit hole go?</p>",
 		"<p>Introspection - how do we get the computer to think in terms that are meaningful to us?</p>"
     ],
-    "contact2": "<h5>Contact Us</h5><p>Please contact us if you think we can help you.</p>",
+    "get_in_touch": "<h5>Contact Us</h5><p>Please contact us if you think we can help you.</p>",
     "pages": [
         {
             "sn": 0,
@@ -55,7 +55,7 @@
             "title": "Legacy Applications/Code",
             "enabled": true,
             "text": [
-                "<p>Often a lot of hard work, and investment has gone into building legacy applications. Often we have also put in a lot of thought into them.<p>",
+                "<p>Often a lot of hard work and investment has gone into building legacy applications. Often a lot of thought has gone into them.<p>",
                 "<p>What do we mean by legacy applications? This is code has become a little dated and not quite as shiny as it once was.</p>",
                 "<p></p>",
                 "<p>Typically the core logic is still solid, but over time the UI (look and feel) tends to have become a bit lacklustre. The other thing that can happen is that the technology it runs on may now not be current.</p>",

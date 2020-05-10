@@ -242,8 +242,7 @@ $.get("js/profile.json",
 
 $.get("js/architect.json",
 	function(profile, status){
-		console.log('architect.json', profile);
-		$('#contact2').html(profile.contact2);
+		$('#get_in_touch #text').html(profile.get_in_touch);
 		loadPages(profile.pages);
 	});
 
