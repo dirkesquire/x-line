@@ -1,0 +1,6 @@
+# This service is published on:
+
+https://github.com/dirkesquire/x-line
+git@github.com:dirkesquire/x-line.git
+
+Uses git pages hosting.

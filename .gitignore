@@ -1,0 +1,8 @@
+# System Files:
+.DS_Store
+
+# Yarn extranous lib files
+lib
+
+# Graphics
+img/Icons.sketch
