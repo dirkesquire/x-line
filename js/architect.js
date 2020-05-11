@@ -242,12 +242,10 @@ $.get("js/profile.json",
 
 $.get("js/architect.json",
 	function(profile, status){
-		console.log('architect.json');
 		$('#get_in_touch #text').html(profile.get_in_touch);
 		loadPages(profile.pages);
 
 		var tabs = $('#tabs').tabs({ 'swipeable': false });
-		console.log('tabs activated');
 		// tabs.select('#education');
 	});
 
