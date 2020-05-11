@@ -219,7 +219,6 @@ function convertElement(element) {
 $.get("js/profile.json",
 	function(profile, status){
 		var pInfo = profile.personalInfo;
-		$('title').html(pInfo.nick+'|Portfolio');
 		$('#name').html(pInfo.fname+' '+pInfo.lname+'<sub>&lt'+pInfo.nick+'/&gt</sub>');
 		$('#image img').attr('src','img/'+pInfo.myimg);
 		$('#summary p').html(profile.summary);
@@ -242,6 +241,7 @@ $.get("js/profile.json",
 
 $.get("js/architect.json",
 	function(profile, status){
+		$('title').html(profile.title);
 		$('#get_in_touch #text').html(profile.get_in_touch);
 		loadPages(profile.pages);
 
