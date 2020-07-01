@@ -221,7 +221,7 @@ $.get("js/profile.json",
 		var pInfo = profile.personalInfo;
 		$('#name').html(pInfo.fname+' '+pInfo.lname+'<sub>&lt'+pInfo.nick+'/&gt</sub>');
 		$('#image img').attr('src','img/'+pInfo.myimg);
-		$('#summary p').html(profile.summary);
+		// $('#summary p').html(profile.summary);
 		// Typed.new('#summary p', {
 		// 	strings: [profile.summary],
 		// 	typeSpeed: 0,
@@ -242,6 +242,7 @@ $.get("js/profile.json",
 $.get("js/architect.json",
 	function(profile, status){
 		$('title').html(profile.title);
+		$('#summary p').html(profile.summary);
 		$('#get_in_touch #text').html(profile.get_in_touch);
 		loadPages(profile.pages);
 

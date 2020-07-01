@@ -1,6 +1,6 @@
 {
     "title": "X-Line Consulting",
-	"summary": "Pythonista 🐍 | Coder | Traveller | Computer Enthusiast | Thai Culture | South Africa | Remote worker | Freelancer | Equal rights",
+	"summary": "Software Architect 🤓 | Traveller | UK | Netherlands | South Africa | Thailand | Remote worker | Freelancer",
 	"hello": [
 		"<p>Hi, I’m Dirk. I am a Software Architect and Programmer. I've been writing code for 20+ years.</p>",
 		"<p>Writing good quality code is a passion. I believe in simplicity, elegance and creating software to make our lives easier, and better. </p>",
@@ -16,17 +16,19 @@
         {
             "sn": 0,
             "tab": "Architect",
-            "title": "Consulting Software Architect",
+            "title": "Consulting Software Architect / Solution Architect",
             "enabled": true,
             "text": [
-                "<p>Hi, I’m Dirk. I am a Software Architect and Programmer. I've been writing code for 20+ years.</p>",
-                "<p>Guiding teams to write good quality code is a passion. I believe in simplicity, elegance and creating software to make our lives easier, and better. Good software mirrors our thinking and empowers us.</p>",
-                "<p>Currently my company delivers architectural services and consultations to clients based anywhere on the globe. Some of our clients include <a target='_blank' href='https://www.gpstrategies.com'>GP Strategies</a>, (a New York stock exchange listed company) and <a target='_blank' href='http://www.inspired.org'>Inspired.org</a> (a leader in Enterprise Architecture research and training in South Africa).</p>",
+                "<p>Hi, I’m Dirk. I am a Software Architect and Programmer. I've been writing code for 20+ years. Now I design software solutions, looking at the overall picture - making ideas work.</p>",
+                "<p>Software is a passion. I believe in simplicity, elegance and creating software to make our lives easier, and better. Good software mirrors our thinking and empowers us.</p>",
+                "<p>Currently my company delivers architectural services and consultations to clients based anywhere on the globe. Some of our clients include <a target='_blank' href='https://www.gpstrategies.com'>GP Strategies</a>, (a New York stock exchange listed company) and also based in the UK, and <a target='_blank' href='http://www.inspired.org'>Inspired.org</a> (a leader in Enterprise Architecture research and training in South Africa).</p>",
                 "<br />",
                 "<b>IDEAS:</b>",
-                "<p>Constantly evolving legacy code to be leading edge so that systems never fall behind.</p>",
-                "<p>Recursion - how far does the rabbit hole go?</p>",
-                "<p>Introspection - how do we get the computer to think in terms that are meaningful to us?</p>"
+                "<p>Route to market - What is the quickest way to get an Idea to market?</p>",
+                "<p>ROI - what is the return expected and how does this shape the plan of attack?</p>",
+                "<p>Recursion - how do we build building blocks?</p>",
+                "<p>Introspection - how do we get the computer to think in terms that are meaningful to us?</p>",
+                "<p>Leverage - how to leverage legacy (what is already there) and what is out there (external libraries/solutions)?</p>"
             ]
         },
         {
